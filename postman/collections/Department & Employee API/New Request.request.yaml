@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Admin Dashboard
+url: 'http://localhost:5000/api/v1/dashboard/admin'
+method: GET
+order: 18000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{json_web_token_0gs9}}'

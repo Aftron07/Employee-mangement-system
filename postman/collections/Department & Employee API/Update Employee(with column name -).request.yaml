@@ -1,0 +1,5 @@
+$kind: http-request
+name: Update Employee(with column name :)
+url: ""
+method: GET
+order: 12000
